@@ -1,0 +1,64 @@
+.form {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black
+    
+  
+  }
+  
+  .Form {
+    margin-top : 100px;
+    font-weight: 500;
+    font-weight: bold;
+    border: solid gray;
+    width: 500px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+    background-color: lightgrey;
+    color: rgb(41, 40, 40);
+  
+  }
+
+  .Form input {
+    margin: 5px;
+  }
+
+  .status {
+    font-weight: bold;
+    width: 520px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: black
+  }
+
+
+  .db_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black
+  }
+  
+  .db_icons i {
+    font-size: 90px;
+    margin: 50px;
+    color: black
+    
+  }
+  
+#db_home{
+  color: black
+}
+
+  .db_icons li {
+    list-style-type:none;
+    
+  }
+  
+  .db_icons a {
+  font-weight: bold;
+  font-size: 20px;
+  color: black
+  }

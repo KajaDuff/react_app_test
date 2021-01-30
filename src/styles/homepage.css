@@ -1,0 +1,209 @@
+.homepage {
+    height: 100%;
+    width: 100%;
+    background-color: #1565c0;
+    position: relative;
+}
+
+.loginpage {
+    height: 100%;
+    width: 100%;
+    background-color: cream;
+    position: relative;
+}
+
+#root{
+    height: calc(100vh - 50px); 
+    width: 100%;
+}
+
+
+.homepage_main {
+    margin-bottom: 2%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+.login_main {
+    margin-bottom: 2%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+#login_card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 400px;
+    background-color: ghostwhite;
+}
+
+#homepage_logo {
+    min-width: 3rem;
+    max-width: 100px;
+    margin: 3%
+}
+
+.homepage_title h1 {
+    color: white;
+   font-family: 'Roboto', sans-serif;
+    margin-bottom: 3%;
+   
+}
+
+
+
+.top_row {
+    height: 50px;
+    background-color: #0D47A1;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#login {
+    color:white
+}
+
+.line_home {
+    margin-top: 40px;
+}
+
+input {
+    width: 100%;
+    font-weight: bold
+}
+
+.navbar-home.col a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home_icons {
+    display: inline-flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.home_icons i {
+    margin: 10px;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+
+
+
+
+.navbar-home.card-body {
+    background-image: radial-gradient(white 60%, rgb(179, 215, 255));
+    border: solid rgb(153, 201, 255) 2px;
+    min-height: 170px;
+}
+
+.navbar-home li {
+    color: #00001a;
+    width: 180px;
+    height: 120px;
+    border-radius: 12px;
+    font-family: 'Teko', sans-serif;    
+    font-size: 20px;
+}
+
+
+.navbar-home i {
+    font-size: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+
+
+.homepage_cards.row {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    position: fixed;
+    top: 35%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#homepage_search_button {
+    float: left;
+    width: 40px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: whitesmoke;
+    border-style: groove;
+  }
+
+  #homepage_searchbar {
+    display: inline-flex;
+    height: 40px;
+    width: 40%;
+    border: solid rgb(179, 215, 255);
+    border-radius: 8px;
+    background-color: rgb(179, 215, 255);
+    position: fixed;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    z-index: 1;
+
+  }
+
+  #homepage_searchbar input {
+      width: 100%;
+      border-radius: 8px;
+      border-color: whitesmoke;
+       border-style: groove;
+  }
+
+
+  .footer_homepage {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    background-color:#0D47A1;
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin: 0;
+
+  }
+
+  .footer_homepage p {
+    color: white;
+    margin :0;
+    font-size: 10px;
+    padding: .5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+
+  }
+ 
+  

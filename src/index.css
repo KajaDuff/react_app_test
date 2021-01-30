@@ -1,0 +1,70 @@
+
+
+body {
+  height: 90%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0D47A1;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+html {
+  height:100vh;
+  overflow: auto;
+  width: 100%
+}
+
+
+
+.card {
+  margin: 2%
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2, h3 {
+  color:black
+}
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem; /* We need to change this value */
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+
+
+
+.table.table.table-hover {
+  position: relative;
+  border-collapse: separate; /* Don't collapse */
+  border-spacing: 0;
+  font-size: smaller;
+}
+
+.react-bootstrap-table thead th{
+  position: sticky;
+  top: 250;
+}
+
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 130px;
+  z-index: 2;
+  background-color: white;
+}
+

@@ -1,0 +1,31 @@
+
+#title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.data_catalog_cards.row {
+    margin-top: 2%;
+}
+
+.card {
+    text-align: center;
+}
+
+.domain_cards i {
+    font-size: 400%;
+}
+
+.domain_cards.card-title {
+    font-size: 200%;
+}
+
+.domain_cards_unactive {
+    color: lightgray
+}
+
+.domain_cards_unactive i {
+    font-size: 400%;
+}
+

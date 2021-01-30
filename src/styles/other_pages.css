@@ -1,0 +1,243 @@
+
+
+.navbar-other{
+    position: absolute;
+    top: 50px;
+    display: inline-flex;
+    list-style-type:none;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+    left:0;
+    background-color: #1565c0;
+    border-top: solid white 1px;
+    padding: 0;
+  }
+
+
+  .navbar-other a {
+    text-decoration: none;
+    color: Black;
+     
+    }
+
+    .navbar-other li{
+        background-color: white;
+        background-image: radial-gradient(white 60%, rgb(179, 215, 255));
+        color: #00001a;
+        margin:0;
+        font-size: 20px;
+        text-align: center;
+        min-width: 25%;
+        min-height: 30px;
+        border: solid white 2px;
+        font-family: 'Teko', sans-serif;    
+      }
+
+      .home_logo {
+        height: 33px;
+        left: 2%;
+        margin: 0;
+        padding-left: 2%
+
+      }
+
+      .firstline {
+        position: relative;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-shrink: 4;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;;
+        left:0px;
+        width: 100%;
+        height: 50px;
+        background-color: #0D47A1;
+      }
+
+      .firstline a {
+        color: white;
+      }
+      .title_header {
+        position: absolute;
+        display: flex;
+        left: 2%;
+        top: 7px;
+    
+        }
+
+      .firstline h3 {
+        font-size: 25px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        width: 200px;
+        left: 8%;
+        margin-left: 2%;
+        margin-top: 2%;
+        color: white;
+      }
+
+      .secondline {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 800;
+        position: absolute;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        top: 85px;
+        width: 100%;
+        height: 40px;
+        background-color:  #0D47A1;
+        font-size: 20px;
+        background-image: linear-gradient( #0D47A1 90%, white);
+        box-shadow: 0px 5px 5px 0px gray;
+        padding-left: 15px
+      }
+
+      .secondline i{
+        margin: 10px;
+        color: white;
+      }
+
+      .secondline a{
+        color:white;
+        
+      }
+
+      .icons {
+        display: inline-flex;
+        position: absolute;
+        right: 1%;
+        margin: 0;
+        color: white;
+      }
+
+      .icons i {
+        padding: 5px;
+        font-size: 20px;
+        margin-right: 20px;
+      }
+
+      .line_third {
+        position: absolute;
+        margin-top: 275px;
+        width : 100%
+      }
+
+      .search_button {
+        float: left;
+        width: 30px;
+        height: 25px;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 8px;
+        border-style: groove;
+        padding: 0;
+      }
+    
+      .searchbar {
+        display: inline-flex;
+        height: 30px;
+        width: 500px;
+        border: solid rgb(179, 215, 255);
+        border-radius: 8px;
+        background-color: rgb(179, 215, 255);
+        margin: 0;
+        position: absolute;
+        margin-left: 10%;
+  
+      }
+    
+      .searchbar input {
+          width: 100%;
+          border-radius: 8px;
+          border-color: whitesmoke;
+           border-style: groove;
+      }
+
+
+      .content{
+        width: 90%;
+        min-height: 400px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        top: 150px;
+        bottom: 0;
+        left:5%;
+        right: 5%;
+      }
+
+      .content h1{
+        color: black;
+        font-family: 'Teko', sans-serif;
+        text-align: left;
+      }
+
+
+  
+      .data_entry_navbar.col a {
+        display: block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .data_entry_navbar.col {
+      min-width: 200px;
+    }
+
+    .data_entry_card {
+      min-height: 170px;
+    }
+
+
+    #data_entry_logo {
+      height: 50%;
+    }
+
+    .data_entry_title h1 {
+      color: white;
+      font-size: 3rem;
+      font-family: 'Teko', sans-serif;
+      margin-top: 5%; 
+      margin-bottom: 5%; 
+      color: #00001a;
+  }
+
+  .data_entry_main {
+    margin-top: 5%;
+  }
+
+
+  .footer {
+    position: fixed;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    background-color:#0D47A1;
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin: 0;
+
+  }
+
+  .footer p {
+    color: white;
+    margin :0;
+    font-size: 10px;
+    padding: .5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    
+  }
+
+
+ 
